@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.key
+
+# ML models
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Training / datasets
+training/
+datasets/
+data/
+logs/
+*.log
+
+# Office temporary files
+~$*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
