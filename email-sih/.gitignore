@@ -1,19 +1,18 @@
-
 # Python
 __pycache__/
 *.py[cod]
 *.pyo
 
-# Virtual environments
-venv/
+# Virtual environment
 .venv/
+venv/
 env/
 
 # Secrets
 .env
 *.key
 
-# Machine learning model files
+# ML models
 *.pkl
 *.pickle
 *.pt
@@ -21,12 +20,15 @@ env/
 *.bin
 *.safetensors
 
-# Training / temporary files
+# Training / datasets
 training/
 datasets/
 data/
 logs/
 *.log
+
+# Office temporary files
+~$*
 
 # IDE
 .vscode/
