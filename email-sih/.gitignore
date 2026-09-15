@@ -1,1 +1,37 @@
 
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+*.key
+
+# Machine learning model files
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Training / temporary files
+training/
+datasets/
+data/
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
